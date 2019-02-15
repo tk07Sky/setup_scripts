@@ -41,3 +41,18 @@ rm installer.sh
 git clone https://github.com/Akidsuki/vimrc.git ~/vimrc
 mv ~/vimrc/.vimrc ~/
 rm -rf ~/vimrc
+
+# vscode plugin install
+code --install-extension vuetifyjs.vuetify-vscode
+code --install-extension peterjausovec.vscode-docker
+code --install-extension eamodio.gitlens
+code --install-extension eg2.vscode-npm-script
+code --install-extension vscodevim.vim
+code --install-extension bung87.rails
+code --install-extension 2gua.rainbow-brackets
+code --install-extension mechatroner.rainbow-csv
+code --install-extension rebornix.ruby
+code --install-extension saviorisdead.rustycode
+code --install-extension robinbentley.sass-indented
+code --install-extension ms-mssql.mssql
+code --install-extension octref.vetur
