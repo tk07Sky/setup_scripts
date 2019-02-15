@@ -12,6 +12,8 @@ brew cask install visual-studio-code
 brew cask install google-chrome
 brew cask install google-japanese-ime
 brew cask install sequel-pro
+brew cask install vim
+brew cask install git
 
 # install cui applications
 brew install mas
@@ -31,3 +33,11 @@ if [ ! -e ~/diffeasy ]; then
 	mkdir ~/diffeasy
 fi
 
+# vim setting
+mkdir -p ~/.vim/bundle
+curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+sh installer.sh ~/.vim/bundle
+rm installer.sh
+git clone https://github.com/Akidsuki/vimrc.git ~/vimrc
+mv ~/vimrc/.vimrc ~/
+rm -rf ~/vimrc
