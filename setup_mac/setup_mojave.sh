@@ -12,8 +12,8 @@ brew cask install visual-studio-code
 brew cask install google-chrome
 brew cask install google-japanese-ime
 brew cask install sequel-pro
-brew cask install vim
-brew cask install git
+brew install vim
+brew install git
 
 # install cui applications
 brew install mas
