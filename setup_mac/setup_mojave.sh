@@ -12,11 +12,11 @@ brew cask install visual-studio-code
 brew cask install google-chrome
 brew cask install google-japanese-ime
 brew cask install sequel-pro
-brew install vim
-brew install git
 
 # install cui applications
 brew install mas
+brew install vim
+brew install git
 
 # install AppStore apps
 mas install 497799835 # Xcode
@@ -56,3 +56,7 @@ code --install-extension saviorisdead.rustycode
 code --install-extension robinbentley.sass-indented
 code --install-extension ms-mssql.mssql
 code --install-extension octref.vetur
+code --install-extension editorconfig.editorconfig
+code --install-extension coenraads.bracket-pair-colorizer
+code --install-extension formulahendry.auto-close-tag
+
