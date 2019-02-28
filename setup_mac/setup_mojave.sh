@@ -32,13 +32,13 @@ mas install 803453959 # Slack
 
 # create ssh key
 if [ ! -e ~/.ssh/diffeasy ]; then
-	ssh-keygen -t rsa -b 4096 -f ~/.ssh/diffeasy
+  ssh-keygen -t rsa -b 4096 -f ~/.ssh/diffeasy
 fi
 pbcopy < ~/.ssh/diffeasy.pub
 
 # create work directory
 if [ ! -e ~/diffeasy ]; then
-	mkdir ~/diffeasy
+  mkdir ~/diffeasy
 fi
 
 # vim setting
