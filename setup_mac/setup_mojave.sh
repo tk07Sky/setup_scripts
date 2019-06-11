@@ -17,6 +17,7 @@ brew cask install sequel-pro
 brew install mas
 brew install vim
 brew install git
+brew install yarn
 
 # install nodenv
 git clone https://github.com/nodenv/nodenv.git ~/.nodenv
