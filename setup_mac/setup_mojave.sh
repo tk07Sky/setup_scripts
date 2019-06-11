@@ -58,7 +58,8 @@ code --install-extension eamodio.gitlens
 code --install-extension eg2.vscode-npm-script
 # code --install-extension vscodevim.vim
 code --install-extension bung87.rails
-code --install-extension 2gua.rainbow-brackets
+# code --install-extension 2gua.rainbow-brackets
+code --install-extension oderwat.indent-rainbow
 code --install-extension mechatroner.rainbow-csv
 code --install-extension rebornix.ruby
 code --install-extension saviorisdead.rustycode
