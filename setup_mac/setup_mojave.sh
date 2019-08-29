@@ -27,6 +27,9 @@ echo 'eval "$(nodenv init -)"' >> ~/.bash_profile
 source ~/.bash_profile
 git clone https://github.com/nodenv/node-build.git $(nodenv root)/plugins/node-build
 
+mkdir -p "$(nodenv root)"/plugins
+git clone https://github.com/nodenv/nodenv-update.git "$(nodenv root)"/plugins/nodenv-update
+
 # install AppStore apps
 mas install 497799835 # Xcode
 mas install 803453959 # Slack

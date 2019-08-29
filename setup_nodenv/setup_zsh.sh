@@ -10,4 +10,8 @@ echo 'eval "$(nodenv init -)"' >> ~/.zshrc
 source ~/.zshrc
 git clone https://github.com/nodenv/node-build.git $(nodenv root)/plugins/node-build
 
+
+mkdir -p "$(nodenv root)"/plugins
+git clone https://github.com/nodenv/nodenv-update.git "$(nodenv root)"/plugins/nodenv-update
+
 echo 'finished!'
